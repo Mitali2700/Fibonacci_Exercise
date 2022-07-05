@@ -15,6 +15,7 @@ function fibonacciGenerator (n) {
         for ( var i = 2; i < n; i++)  
           {  
               output.push(output[output.length - 2]+ output[output.length -1]);
+          
           } 
       }
          
@@ -24,4 +25,5 @@ function fibonacciGenerator (n) {
     
 //Do NOT change any of the code below 👇
 }
+
 
